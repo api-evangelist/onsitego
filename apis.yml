@@ -1,7 +1,27 @@
 aid: onsitego
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/onsitego.png
 name: Onsitego
-description: 'Onsitego is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Onsitego is a Mumbai-based Indian consumer device-protection company that
+  sells extended warranty, accidental and liquid damage protection, and repair and
+  maintenance (AMC) plans for consumer electronics and home appliances including mobile
+  phones, laptops, televisions, refrigerators, washing machines and air conditioners.
+  Sold at point of sale through 10,000+ retail stores and serviced via 3,300+ service
+  centers, the company reports 2.5+ crore (25M+) customers and lets buyers activate
+  coverage, manage devices and plans, and request service online. Onsitego is a portfolio
+  company of Accel. No public developer API, documentation, or programmatic surface was
+  found during enrichment; this profile captures the company identity and probed domain
+  security posture.'
 url: https://raw.githubusercontent.com/api-evangelist/onsitego/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer
+- Consumer Electronics
+- Device Protection
+- Extended Warranty
+- Insurance
+- Repair Services
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +49,17 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.onsitego.com
+  url: https://www.onsitego.com
+- type: PrivacyPolicy
+  url: https://onsitego.com/privacy-policy
+- type: TermsOfService
+  url: https://onsitego.com/terms-of-use
+- type: Support
+  url: https://onsitego.com/write-to-us
+- type: DomainSecurity
+  url: security/onsitego-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
